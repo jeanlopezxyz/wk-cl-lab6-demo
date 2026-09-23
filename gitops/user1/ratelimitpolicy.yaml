@@ -13,7 +13,7 @@ spec:
   limits:
     "per-user-per-minute":
       rates:
-        - limit: 20
+        - limit: 5
           window: 60s
       counters:
         - expression: auth.identity.user_id
